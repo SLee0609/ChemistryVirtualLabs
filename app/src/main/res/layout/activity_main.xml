@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/backgroundIMG"
+        android:layout_width="5000dp"
+        android:layout_height="1000dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.501"
+        app:srcCompat="@drawable/rectangle" />
+
+    <ImageView
+        android:id="@+id/solution1IMG"
+        android:layout_width="70dp"
+        android:layout_height="87dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        app:layout_constraintBottom_toBottomOf="@+id/line"
+        app:layout_constraintEnd_toStartOf="@+id/chooseLabText"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/line2"
+        app:srcCompat="@drawable/icon" />
+
+    <ImageView
+        android:id="@+id/solution2IMG"
+        android:layout_width="70dp"
+        android:layout_height="87dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/line"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/chooseLabText"
+        app:layout_constraintTop_toTopOf="@+id/line2"
+        app:srcCompat="@drawable/icon" />
+
+    <TextView
+        android:id="@+id/chooseLabText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/choose_a_lab"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.13" />
+
+    <ImageView
+        android:id="@+id/calorimetryBackgroundIMG"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.415"
+        app:srcCompat="@drawable/box" />
+
+    <ImageView
+        android:id="@+id/calorimetryIMG"
+        android:layout_width="123dp"
+        android:layout_height="133dp"
+        app:layout_constraintBottom_toBottomOf="@+id/calorimetryBackgroundIMG"
+        app:layout_constraintEnd_toEndOf="@+id/calorimetryBackgroundIMG"
+        app:layout_constraintStart_toStartOf="@+id/calorimetryBackgroundIMG"
+        app:layout_constraintTop_toTopOf="@+id/calorimetryBackgroundIMG"
+        app:layout_constraintVertical_bias="0.17000002"
+        app:srcCompat="@drawable/calorimeter" />
+
+    <Button
+        android:id="@+id/calorimetryButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/calorimetry"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/calorimetryBackgroundIMG"
+        app:layout_constraintStart_toStartOf="@+id/calorimetryBackgroundIMG"
+        app:layout_constraintTop_toBottomOf="@+id/calorimetryBackgroundIMG"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/blackRectIMG"
+        android:layout_width="291dp"
+        android:layout_height="60dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/calorimetryButton"
+        app:srcCompat="@android:drawable/screen_background_dark" />
+
+    <TextView
+        android:id="@+id/moreLabsText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/more_labs_coming_soon"
+        android:textColor="#F9F9F9"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/calorimetryButton" />
+
+    <ImageView
+        android:id="@+id/line"
+        android:layout_width="160dp"
+        android:layout_height="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/chooseLabText"
+        app:srcCompat="@drawable/line" />
+
+    <ImageView
+        android:id="@+id/line2"
+        android:layout_width="160dp"
+        android:layout_height="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/chooseLabText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/line2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

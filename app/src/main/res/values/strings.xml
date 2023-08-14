@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Chemistry Virtual Labs</string>
+    <string name="choose_a_lab">Choose a Lab!</string>
+    <string name="choose_a_compound">Choose a Compound:</string>
+    <string name="ammonium_nitrate">Ammonium Nitrate</string>
+    <string name="calcium_chloride">Calcium Chloride</string>
+    <string name="calorimetry">Calorimetry</string>
+    <string name="grams_to_use">Grams to Use!</string>
+    <string name="select_number_of">Select Number of</string>
+    <string name="done">Done</string>
+    <string name="calorimetry_calcium_chloride">Calorimetry - Calcium Chloride</string>
+    <string name="_0_0_grams">0.00 grams</string>
+    <string name="more_labs_coming_soon">More labs coming soon!</string>
+    <string name="calorimetry_ammonium_nitrate">Calorimetry - Ammonium Nitrate</string>
+    <string name="introduction">Introduction:</string>
+    <string name="conclusion">Conclusion:</string>
+    <string name="calorimetry_explanation">Calorimetry is a lab based on thermochemistry and involves observing heat being transferred throughout reactions. In this particular lab, we will use a coffee cup and a thermometer to determine the heat of solution of a compound, which is the change in energy (kJ) per mole of compound dissolved in water. How will we calculate this? Well, we will pour some of the compound into 100.0 mL of water in a coffee cup, put on the lid, and stir. Using the thermometer, we will be able to see the temperature change of the water as a result of the compound dissociating. We can also assume that the coffee cup is perfectly insulated, meaning that no heat escapes or enters the cup. So, energy gained or lost by the water is equal to the energy lost or gained by the compound. Let\'s get started!</string>
+    <string name="calorimetry_conclusion">In this lab, we used coffee cup calorimetry to determine the heat of solution of a compound. The temperature change that occurs as certain compounds dissolve can be quite useful. In fact, the two compounds in this lab (calcium chloride and ammonium nitrate) are frequently used in hot or cold packs!</string>
+    <string name="start">Start</string>
+    <string name="observe">Observe how the water temperature changes as the compound dissolves!</string>
+    <string name="lab">Lab:</string>
+    <string name="next">next</string>
+    <string name="lab_data">Lab Data:</string>
+    <string name="you_might_want_to_record_this">You might want to record this!</string>
+    <string name="_100_ml">100.0 mL</string>
+    <string name="question_1_out_of_4">Question 1 out of 4:</string>
+    <string name="questions">Questions:</string>
+    <string name="exothermic_endothermic">EXOTHERMIC / ENDOTHERMIC</string>
+    <string name="q1">Is the dissociation of this compound an exothermic or endothermic reaction?</string>
+    <string name="submit">Submit</string>
+    <string name="explanations">Explanations:</string>
+    <string name="cacl2_q1_exp">The reaction is EXOTHERMIC. As calcium chloride dissociates, it releases heat. This heat is absorbed by the surrounding water, causing the temperature to increase.</string>
+    <string name="nh4no3_q1_exp">The reaction is ENDOTHERMIC. As ammonium nitrate dissociates, it absorbs heat. This heat is taken from the surrounding water, causing the temperature to decrease.</string>
+    <string name="q2">Calculate the energy change (in kJ) of the water. Assume that water\'s specific heat is 4.184 J/g°C and its density is 1.00 g/mL. Select the correct sign and be careful of your units! DO NOT ROUND UNTIL THE VERY END!</string>
+    <string name="question_2_out_of_4">Question 2 out of 4:</string>
+    <string name="keep_in_mind_sig_figs">KEEP IN MIND SIG FIGS!</string>
+    <string name="positive">POSITIVE</string>
+    <string name="negative">NEGATIVE</string>
+    <string name="warning">Select at least 1.00 grams for more accurate results!</string>
+    <string name="q2_exp">The answer is\nWe can use q = mc∆t, where m = mass of water, c = specific heat of water, and ∆t = final minus initial temperature of water.\nq = 100.0 g * 4.184 J/g°C * (\nq =\nq =</string>
+    <string name="question_3_out_of_4">Question 3 out of 4:</string>
+    <string name="q3cacl2">Calculate the heat of solution (kJ / mol) of this compound. Calcium chloride\'s molar mass is 110.98 g / mol. Assume that no heat is lost or absorbed by the cup. Select the correct sign and be careful of your units! DO NOT ROUND UNTIL THE VERY END!</string>
+    <string name="q3nh4no3">Calculate the heat of solution (kJ / mol) of this compound. Ammonium nitrate\'s molar mass is 80.04 g / mol. Assume that no heat is lost or absorbed by the cup. Select the correct sign and be careful of your units! DO NOT ROUND UNTIL THE VERY END!</string>
+    <string name="back">Back</string>
+    <string name="home">Home</string>
+    <string name="view_data_table">View Data Table</string>
+    <string name="q3_exp_cacl2">The answer is\nBecause we assume that there is only heat transfer between water and the compound,\nq of water = -q of the compound\'s dissolution.\nUsing the answer from question 2,\t\t\t\t\t\t\t\t\t\t\t=\n-ΔHsolution *\t\t\t\t\t\t\t\t* (1 mol / 110.98 g)\nΔHsolution =</string>
+    <string name="q3_exp_nh4no3">The answer is\nBecause we assume that there is only heat transfer between water and the compound,\nq of water = -q of the compound\'s dissolution.\nUsing the answer from question 2,\t\t\t\t\t\t\t\t\t\t\t=\n-ΔHsolution *\t\t\t\t\t\t\t\t* (1 mol / 80.04 g)\nΔHsolution =</string>
+    <string name="question_4_out_of_4">Question 4 out of 4:</string>
+    <string name="q4cacl2">Calculate the percent error (%). The actual heat of solution for calcium chloride is about -82.8 kJ / mol. Also, think about some possible sources of error. DO NOT ROUND UNTIL THE VERY END!</string>
+    <string name="q4nh4no3">Calculate the percent error (%). The actual heat of solution for ammonium nitrate is about +25.7 kJ / mol. Also, think about some possible sources of error. DO NOT ROUND UNTIL THE VERY END!</string>
+    <string name="q4_exp_cacl2">The answer is\nUsing the answer from question 3, percent error = |(\t\t\t\t\t\t\t)-(-82.8)) / (-82.8)| * 100%\nPercent error =\nIt is common to get a heat of solution smaller in magnitude than the actual value. This is because some of the heat produced by the compound escapes into the atmosphere or is absorbed by the cup itself. Thus, the water temperature increases less than it should, and you get a smaller calculated heat of solution.</string>
+    <string name="q4_exp_nh4no3">The answer is\nUsing the answer from question 3, percent error = |(\t\t\t\t\t\t)-(25.7)) / (25.7)| * 100%\nPercent error =\nIt is common to get a heat of solution smaller in magnitude than the actual value. This is because some of the heat in the atmosphere is absorbed by the water. Thus, the water temperature decreases less than it should, and you get a smaller calculated heat of solution.</string>
+</resources>

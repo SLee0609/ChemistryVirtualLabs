@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.seanlee.chemistryvirtuallabs">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".calorimetry.CalorimetryFinal"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".calorimetry.nh4no3.questions.CalorimetryNh4no3Q4Exp"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".calorimetry.nh4no3.questions.CalorimetryNh4no3Q4"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".calorimetry.cacl2.questions.CalorimetryCacl2Q4Exp"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".calorimetry.cacl2.questions.CalorimetryCacl2Q4"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".calorimetry.nh4no3.questions.CalorimetryNh4no3Q3Exp"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".calorimetry.cacl2.questions.CalorimetryCacl2Q3Exp"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".calorimetry.nh4no3.questions.CalorimetryNh4no3Q3"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".calorimetry.cacl2.questions.CalorimetryCacl2Q3"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".calorimetry.nh4no3.questions.CalorimetryNh4no3Q2Exp"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".calorimetry.cacl2.questions.CalorimetryCacl2Q2Exp"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".calorimetry.nh4no3.questions.CalorimetryNh4no3Q2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".calorimetry.nh4no3.questions.CalorimetryNh4no3Q1Exp"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".calorimetry.cacl2.questions.CalorimetryCacl2Q2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".calorimetry.cacl2.questions.CalorimetryCacl2Q1Exp"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".calorimetry.nh4no3.questions.CalorimetryNh4no3Q1"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".calorimetry.cacl2.questions.CalorimetryCacl2Q1"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".calorimetry.nh4no3.CalorimetryNh4no3Stats"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".calorimetry.cacl2.CalorimetryCacl2Stats"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".calorimetry.CalorimetryIntro"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".calorimetry.nh4no3.CalorimetryNh4no3Exp"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".calorimetry.cacl2.CalorimetryCacl2Exp"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".calorimetry.nh4no3.CalorimetryAmmoniumNitrate"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".calorimetry.cacl2.CalorimetryCalciumChloride"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".calorimetry.CalorimetryChooseCompound"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

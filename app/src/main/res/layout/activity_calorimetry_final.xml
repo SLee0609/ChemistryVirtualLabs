@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".calorimetry.CalorimetryFinal">
+
+    <ImageView
+        android:id="@+id/backgroundIMG"
+        android:layout_width="5000dp"
+        android:layout_height="1000dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.501"
+        app:srcCompat="@drawable/rectangle" />
+
+    <ImageView
+        android:id="@+id/yellowBox"
+        android:layout_width="213dp"
+        android:layout_height="210dp"
+        app:layout_constraintBottom_toTopOf="@+id/calorimetryConclusion"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/conclusionText"
+        app:layout_constraintVertical_bias="0.5"
+        app:srcCompat="@drawable/box" />
+
+    <TextView
+        android:id="@+id/conclusionText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/conclusion"
+        android:textColor="#000000"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.101" />
+
+    <ImageView
+        android:id="@+id/yellowRect"
+        android:layout_width="600dp"
+        android:layout_height="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.50"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/yellowrectangle" />
+
+    <TextView
+        android:id="@+id/location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/calorimetry"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="@+id/yellowRect"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.50"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/yellowRect"
+        app:layout_constraintVertical_bias="0.50" />
+
+    <TextView
+        android:id="@+id/calorimetryConclusion"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="@string/calorimetry_conclusion"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.486"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/conclusionText"
+        app:layout_constraintVertical_bias="0.7" />
+
+    <Button
+        android:id="@+id/home"
+        android:layout_width="0dp"
+        android:layout_height="56dp"
+        android:text="@string/home"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/calorimetryConclusion"
+        app:layout_constraintStart_toStartOf="@+id/calorimetryConclusion"
+        app:layout_constraintTop_toBottomOf="@+id/calorimetryConclusion"
+        app:layout_constraintVertical_bias="0.22000003" />
+
+    <ImageView
+        android:id="@+id/score44"
+        android:layout_width="141dp"
+        android:layout_height="137dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/yellowBox"
+        app:layout_constraintEnd_toEndOf="@+id/yellowBox"
+        app:layout_constraintStart_toStartOf="@+id/yellowBox"
+        app:layout_constraintTop_toTopOf="@+id/yellowBox"
+        app:layout_constraintVertical_bias="0.72"
+        app:srcCompat="@drawable/score44" />
+
+    <ImageView
+        android:id="@+id/score34"
+        android:layout_width="141dp"
+        android:layout_height="137dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/yellowBox"
+        app:layout_constraintEnd_toEndOf="@+id/yellowBox"
+        app:layout_constraintStart_toStartOf="@+id/yellowBox"
+        app:layout_constraintTop_toTopOf="@+id/yellowBox"
+        app:layout_constraintVertical_bias="0.72"
+        app:srcCompat="@drawable/score34" />
+
+    <ImageView
+        android:id="@+id/score24"
+        android:layout_width="141dp"
+        android:layout_height="137dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/yellowBox"
+        app:layout_constraintEnd_toEndOf="@+id/yellowBox"
+        app:layout_constraintStart_toStartOf="@+id/yellowBox"
+        app:layout_constraintTop_toTopOf="@+id/yellowBox"
+        app:layout_constraintVertical_bias="0.72"
+        app:srcCompat="@drawable/score24" />
+
+    <ImageView
+        android:id="@+id/score14"
+        android:layout_width="141dp"
+        android:layout_height="137dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/yellowBox"
+        app:layout_constraintEnd_toEndOf="@+id/yellowBox"
+        app:layout_constraintStart_toStartOf="@+id/yellowBox"
+        app:layout_constraintTop_toTopOf="@+id/yellowBox"
+        app:layout_constraintVertical_bias="0.72"
+        app:srcCompat="@drawable/score14" />
+
+    <ImageView
+        android:id="@+id/score04"
+        android:layout_width="141dp"
+        android:layout_height="137dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/yellowBox"
+        app:layout_constraintEnd_toEndOf="@+id/yellowBox"
+        app:layout_constraintStart_toStartOf="@+id/yellowBox"
+        app:layout_constraintTop_toTopOf="@+id/yellowBox"
+        app:layout_constraintVertical_bias="0.72"
+        app:srcCompat="@drawable/score04" />
+
+    <TextView
+        android:id="@+id/numberCorrect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Correct Answers:"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/score04"
+        app:layout_constraintEnd_toEndOf="@+id/yellowBox"
+        app:layout_constraintStart_toStartOf="@+id/yellowBox"
+        app:layout_constraintTop_toTopOf="@+id/yellowBox" />
+</androidx.constraintlayout.widget.ConstraintLayout>
